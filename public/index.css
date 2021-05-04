@@ -1,0 +1,38 @@
+@font-face {
+    font-family: font_default;
+    src: url("Vazir.woff2");
+}
+@font-face {
+    font-family: font_number_fa;
+    src: url("IRANSan.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: font_default;
+}
+@media only screen and (max-width: 3840px) {
+  .body_width {
+      margin: 0 400px 0 400px
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .body_width {
+      margin: 0 200px 0 200px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .body_width {
+      margin: 0 100px 0 100px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .body_width {
+      margin: 0 50px 0 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .body_width {
+      margin: 0 0 0 0;
+  }
+}

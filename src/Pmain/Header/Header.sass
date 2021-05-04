@@ -1,0 +1,106 @@
+header 
+    height: 16vh
+    display: block
+    width: 100%
+    margin: 0 auto 0 auto
+
+.header
+    position: relative
+    display: flex
+    height: 56%
+    width: auto
+    direction: rtl
+    // margin: 0px auto 0px auto
+    clear: both
+    >.logo
+        width: auto
+        height: 100%
+        margin-left: 10%
+    >.input
+        width: 100%
+        max-width: 500px
+        height: 4.4vh
+        // height: auto
+        flex-direction: row
+        display: flex
+        text-align: center
+        justify-content: center
+        margin: auto 0 auto auto
+        direction: ltr
+        >*
+            margin: auto 0 auto 0
+            display: inline-block
+            border: 0
+        >button
+            position: static
+            height: 4.1vh
+            width: 4.1vh
+            padding: 0
+            margin: 0
+            margin-left: 10px
+            background-color: #fe4066
+            &:focus
+                border: 0px
+                outline: none !important
+            &:hover
+                border: 0px
+                outline: none !important
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+            >svg
+                // position: relative
+                // display: none
+                width: 50%
+                height: 50%
+                // padding: 50%
+                margin: 25%
+        >input
+            width: 80%
+            font-size: 1vw
+            height: 100%
+            font-family: font_default
+            direction: rtl
+            padding: 0
+            &:focus
+                border: 0px
+                outline: none !important
+                box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1)
+    >.user
+        position: relative
+        width: auto
+        height: auto
+        flex-direction: row
+        display: flex
+        text-align: center
+        justify-content: center
+        padding: auto 0 auto 0
+        cursor: pointer
+        &:hover
+            >.box_user
+                z-index: 1
+        >.user_txt
+            // height: 40px
+            width: 6vw
+            font-size: 1vw
+            margin: auto 0 auto 0
+        >.user_icon           
+            margin: auto 0 auto 0
+            >svg
+                width: 2.05vh
+                height: 2.05vh
+        >.box_user
+            position: absolute
+            top: 80px
+            width: 100%
+            height: 80px
+            z-index: -2
+            >span
+                height: 30px
+                display: block
+                padding: 5px 0 0 0
+                cursor: pointer
+                font-size: 1vw
+                text-decoration: none
+                color: #000
+                &:hover
+                    color: #009667
+    
